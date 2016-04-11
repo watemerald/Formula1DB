@@ -12,22 +12,23 @@ function DriverListViewModel(items) {
     // var driverList = [];
     
     viewModel.load = function() {
+        var url = config.apiUrl + "drivers.json";
+        var current = 0
         
         // fetch(config.apiUrl + "drivers.json")
-        getRequest(config.apiUrl + "drivers.json", 0, config.defaultResponseRows)
+        getRequest(url, current, config.defaultResponseRows)
         .then(function(r) {return r.json();})
         .then(function(res) {
         //    console.log(res); 
             var total = parseInt(res.MRData.total, 10);
-            var current = config.defaultResponseRows;
             
             _.each(res.MRData.DriverTable.Drivers, function(element) {
                 viewModel.push(element);
             });
-            
+            current = current + config.defaultResponseRows;            
             while (current < total) {
-                console.log(current);
-                getRequest(config.apiUrl + "drivers.json", current, config.defaultResponseRows)
+                // console.log(current);
+                getRequest(url, current, config.defaultResponseRows)
                 .then(function(r) {return r.json();})
                 .then(function(res) {
                     _.each(res.MRData.DriverTable.Drivers, function(element) {

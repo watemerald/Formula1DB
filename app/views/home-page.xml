@@ -1,0 +1,9 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd">
+  <StackLayout>
+    <Button text="Drivers" tap="getDrivers"/>
+    <Button text="Constructors" tap="getConstructors"/>
+    <Button text="Seasons" tap="getSeasons"/>
+    <Button text="Driver Champions" tap="getDriverChampions"/>
+    <Button text="Constructor Champions" tap="getConstructorChampions"/>     
+  </StackLayout>
+</Page>
