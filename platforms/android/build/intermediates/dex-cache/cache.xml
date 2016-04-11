@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/usr/local/Cellar/android-sdk/24.4.1_1/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/Users/watemerald/Documents/Masters/Program Engineering/Formula1DB/platforms/android/build/intermediates/pre-dexed/nativescript-telerik-ui/debug/support-annotations-23.2.1_be29bbd49f7270cccaeecc1f5df54d90f886d9c7.jar" />
+    </item>
+    <item
+        jar="/Users/watemerald/Documents/Masters/Program Engineering/Formula1DB/platforms/android/libs/nativescript.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="72b585c3baffa7cb9fbecc8dd37cd89a127f17f5">
+        <dex dex="/Users/watemerald/Documents/Masters/Program Engineering/Formula1DB/platforms/android/build/intermediates/pre-dexed/nativescript-telerik-ui/debug/nativescript_97030e8ee3eae9a163cdb8776aabb100e0492afe.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/watemerald/Documents/Masters/Program Engineering/Formula1DB/platforms/android/build/intermediates/res/merged/nativescript-telerik-ui/debug/anim/drawer_slide_out_top.xml",
+        "source": "/Users/watemerald/Documents/Masters/Program Engineering/Formula1DB/platforms/android/build/intermediates/exploded-aar/Primitives-2016.1.331-dev-release/res/anim/drawer_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/watemerald/Documents/Masters/Program Engineering/Formula1DB/platforms/android/build/intermediates/res/merged/nativescript-telerik-ui/debug/anim/abc_fade_out.xml",
+        "source": "/Users/watemerald/Documents/Masters/Program Engineering/Formula1DB/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/watemerald/Documents/Masters/Program Engineering/Formula1DB/platforms/android/build/intermediates/res/merged/nativescript-telerik-ui/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/watemerald/Documents/Masters/Program Engineering/Formula1DB/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/watemerald/Documents/Masters/Program Engineering/Formula1DB/platforms/android/build/intermediates/res/merged/nativescript-telerik-ui/debug/anim/abc_fade_in.xml",
+        "source": "/Users/watemerald/Documents/Masters/Program Engineering/Formula1DB/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/watemerald/Documents/Masters/Program Engineering/Formula1DB/platforms/android/build/intermediates/res/merged/nativescript-telerik-ui/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/watemerald/Documents/Masters/Program Engineering/Formula1DB/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/watemerald/Documents/Masters/Program Engineering/Formula1DB/platforms/android/build/intermediates/res/merged/nativescript-telerik-ui/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/watemerald/Documents/Masters/Program Engineering/Formula1DB/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/watemerald/Documents/Masters/Program Engineering/Formula1DB/platforms/android/build/intermediates/res/merged/nativescript-telerik-ui/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/watemerald/Documents/Masters/Program Engineering/Formula1DB/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/watemerald/Documents/Masters/Program Engineering/Formula1DB/platforms/android/build/intermediates/res/merged/nativescript-telerik-ui/debug/anim/drawer_slide_in_top.xml",
+        "source": "/Users/watemerald/Documents/Masters/Program Engineering/Formula1DB/platforms/android/build/intermediates/exploded-aar/Primitives-2016.1.331-dev-release/res/anim/drawer_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/watemerald/Documents/Masters/Program Engineering/Formula1DB/platforms/android/build/intermediates/res/merged/nativescript-telerik-ui/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/watemerald/Documents/Masters/Program Engineering/Formula1DB/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/watemerald/Documents/Masters/Program Engineering/Formula1DB/platforms/android/build/intermediates/res/merged/nativescript-telerik-ui/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/watemerald/Documents/Masters/Program Engineering/Formula1DB/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/watemerald/Documents/Masters/Program Engineering/Formula1DB/platforms/android/build/intermediates/res/merged/nativescript-telerik-ui/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/watemerald/Documents/Masters/Program Engineering/Formula1DB/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/watemerald/Documents/Masters/Program Engineering/Formula1DB/platforms/android/build/intermediates/res/merged/nativescript-telerik-ui/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/watemerald/Documents/Masters/Program Engineering/Formula1DB/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/anim/abc_slide_in_top.xml"
+    }
+]
