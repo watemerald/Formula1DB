@@ -1,0 +1,25 @@
+<Page loaded="loaded" xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:lv="nativescript-telerik-ui/listview">
+  <StackLayout>
+    <Label text="Hello to all driver champions" class="title"/>
+    <lv:RadListView items="{{ standingsList }}">
+        <lv:RadListView.listViewLayout>
+        <lv:ListViewLinearLayout scrollDirection="Vertical"/>
+        </lv:RadListView.listViewLayout>
+        <lv:RadListView.itemTemplate >
+        <StackLayout>
+            <Label fontSize="15" text="{{ season }}"/>
+            <Label fontSize="20" text="{{ givenName }}"/>
+            <Label fontSize="20" text="{{ familyName }}"/>
+            <Label fontSize="20" text="{{ points }}"/>
+            <Label fontSize="20" text="{{ wins }}"/>
+        </StackLayout>
+        </lv:RadListView.itemTemplate>
+    </lv:RadListView>
+  
+  </StackLayout>
+  <!--<StackLayout> 
+    <Label text="Tap the button" class="title"/>
+    <Button text="TAP" tap="{{ onTap }}" />
+    <Label text="{{ message }}" class="message" textWrap="true"/>
+  </StackLayout>-->
+</Page>

@@ -1,3 +1,4 @@
+var frameModule = require("ui/frame");
 var dialogsModule = require("ui/dialogs");
 var Observable = require("data/observable").Observable;
 
@@ -12,8 +13,22 @@ exports.loaded = function (args) {
     page = args.object;
     page.bindingContext = pageData;
     
-    driverList.load();   
+    driverList.load()
     console.log("Loaded page");
-}
+};
+
+exports.onItemClick = function(args) {
+    var itemIndex = args.itemIndex;
+    var itemObject = args.object;
+    
+    var driverTapped = driverList.getItem(itemIndex);
+    
+    var navigationEntry = {
+        moduleName: "views/driver-details",
+        context: driverTapped
+    }
+    
+    frameModule.topmost().navigate(navigationEntry);
+};
 
 console.log("Loaded Module");

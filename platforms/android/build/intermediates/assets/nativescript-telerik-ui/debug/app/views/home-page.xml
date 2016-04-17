@@ -4,6 +4,7 @@
     <Button text="Constructors" tap="getConstructors"/>
     <Button text="Seasons" tap="getSeasons"/>
     <Button text="Driver Champions" tap="getDriverChampions"/>
-    <Button text="Constructor Champions" tap="getConstructorChampions"/>     
+    <Button text="Constructor Champions" tap="getConstructorChampions"/>
+    <Button text="Driver Example" tap="getDriverDetails"/>     
   </StackLayout>
 </Page>

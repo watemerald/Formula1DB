@@ -1,0 +1,19 @@
+<Page loaded="loaded">
+<!--<Page NavigatedTo="navigatedTo">-->
+    <GridLayout columns="*, *" rows="auto, auto, auto, auto, auto" horizontalAlignment="left" verticalAlignment="stretch">
+      <!-- <GridLayout col="0" columns="*, *" rows="auto"> -->
+      <Label text="Name:" col="0" row="0"/>
+      <Label text="{{ name }}" col="1" row="0"/>
+      <Label text="Nationality:" col="0" row="1"/>
+      <Label text="{{ nationality }}" col="1" row="1"/>
+      <Label text="Date of birth:" col="0" row="2"/>
+      <Label text="{{ dateOfBirth }}" col="1" row="2"/>
+      <Label text="Driver code:" col="0" row="3"/>
+      <Label text="{{ driverCode }}" col="1" row="3"/>
+      <Label text="Permanent no." col="0" row="4"/>
+      <Label text="{{ permanentNumber }}" col="1" row="4"/>
+      <!-- </GridLayout> -->
+      <!-- <Image col="1" src="{{ photo }}"/> -->
+      <Image col="2" rowspan="5" src="{{ image }}"/>
+    </GridLayout>
+</Page>

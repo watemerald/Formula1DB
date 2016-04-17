@@ -8,27 +8,21 @@ exports.getDrivers = function() {
 };
 
 exports.getConstructors = function() {
-//   dialogsModule.alert({
-//     message: "Not implemented yet",
-//     okButtonText: "OK"
-//   });
     console.log("Getting all constructors");
     
     frameModule.topmost().navigate("views/constructor-list");
 };
 
 exports.getSeasons = function() {
-    dialogsModule.alert({
-        message: "Not implemented yet",
-        okButtonText: "OK"
-    });
+    console.log("Getting all seasons");
+    
+    frameModule.topmost().navigate("views/season-list");
 };
 
 exports.getDriverChampions = function() {
-  dialogsModule.alert({
-    message: "Not implemented yet",
-    okButtonText: "OK"
-  });
+    console.log("Getting all driver champions");
+    
+    frameModule.topmost().navigate("views/driver-champions-list");
 };
 
 exports.getConstructorChampions = function() {
@@ -37,3 +31,7 @@ exports.getConstructorChampions = function() {
     okButtonText: "OK"
   });
 };
+
+exports.getDriverDetails = function() {
+    frameModule.topmost().navigate("views/driver-details");
+}

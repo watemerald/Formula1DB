@@ -1,15 +1,15 @@
 <Page loaded="loaded" xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:lv="nativescript-telerik-ui/listview">
   <StackLayout>
     <Label text="Hello to all drivers" class="title"/>
-    <lv:RadListView items="{{ driverList }}">
+    <lv:RadListView items="{{ driverList }}" id="listView" itemTap="onItemClick">
         <lv:RadListView.listViewLayout>
         <lv:ListViewLinearLayout scrollDirection="Vertical"/>
         </lv:RadListView.listViewLayout>
-        <lv:RadListView.itemTemplate >
+        <lv:RadListView.itemTemplate>
         <StackLayout orientation="vertical">
-            <Label fontSize="20" text="{{ givenName }}"/>
+            <Label fontSize="20" text="{{ givenName }}" id="{{ driverId }}"/>
             <Label fontSize="20" text="{{ familyName }}"/>
-            <Label fontSize="14" text="{{ itemDescription }}"/>
+            <Label fontSize="14" text="{{ driverId }}"/>
         </StackLayout>
         </lv:RadListView.itemTemplate>
     </lv:RadListView>
