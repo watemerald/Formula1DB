@@ -1,0 +1,24 @@
+<Page loaded="loaded" xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:lv="nativescript-telerik-ui/listview">
+  <StackLayout>
+    <Label text="Hello to all constructors" class="title"/>
+    <lv:RadListView items="{{ standingsList }}">
+        <lv:RadListView.listViewLayout>
+        <lv:ListViewLinearLayout scrollDirection="Vertical"/>
+        </lv:RadListView.listViewLayout>
+        <lv:RadListView.itemTemplate >
+        <StackLayout orientation="vertical">
+            <Label fontSize="20" text="{{ name }}"/>
+            <Label fontSize="20" text="{{ season }}"/>
+            <Label fontSize="20" text="{{ wins }}"/>
+            <Label fontSize="20" text="{{ points }}"/>
+        </StackLayout>
+        </lv:RadListView.itemTemplate>
+    </lv:RadListView>
+  
+  </StackLayout>
+  <!--<StackLayout> 
+    <Label text="Tap the button" class="title"/>
+    <Button text="TAP" tap="{{ onTap }}" />
+    <Label text="{{ message }}" class="message" textWrap="true"/>
+  </StackLayout>-->
+</Page>

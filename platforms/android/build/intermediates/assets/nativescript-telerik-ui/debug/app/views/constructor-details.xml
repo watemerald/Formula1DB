@@ -1,0 +1,13 @@
+<Page loaded="loaded">
+<!--<Page NavigatedTo="navigatedTo">-->
+    <GridLayout columns="*, *" rows="auto, auto" horizontalAlignment="left" verticalAlignment="stretch">
+      <!-- <GridLayout col="0" columns="*, *" rows="auto"> -->
+      <Label text="Name:" col="0" row="0"/>
+      <Label text="{{ name }}" col="1" row="0"/>
+      <Label text="Nationality:" col="0" row="1"/>
+      <Label text="{{ nationality }}" col="1" row="1"/>
+      <!-- </GridLayout> -->
+      <!-- <Image col="1" src="{{ photo }}"/> -->
+      <Image col="2" rowspan="5" src="{{ image }}"/>
+    </GridLayout>
+</Page>

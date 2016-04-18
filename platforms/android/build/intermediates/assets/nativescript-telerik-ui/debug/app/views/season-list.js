@@ -1,3 +1,4 @@
+var frameModule = require("ui/frame");
 var dialogsModule = require("ui/dialogs");
 var Observable = require("data/observable").Observable;
 
@@ -15,5 +16,19 @@ exports.loaded = function (args) {
     seasonList.load();   
     console.log("Loaded page");
 }
+
+exports.onItemClick = function(args) {
+    var itemIndex = args.itemIndex;
+    var itemObject = args.object;
+    
+    var seasonTapped = seasonList.getItem(itemIndex);
+    
+    var navigationEntry = {
+        moduleName: "views/season-details",
+        context: seasonTapped
+    }
+    
+    frameModule.topmost().navigate(navigationEntry);
+};
 
 console.log("Loaded Module");

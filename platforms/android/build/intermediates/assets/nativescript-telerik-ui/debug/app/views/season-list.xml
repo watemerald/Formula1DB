@@ -1,7 +1,7 @@
 <Page loaded="loaded" xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:lv="nativescript-telerik-ui/listview">
   <StackLayout>
     <Label text="Hello to all seasons" class="title"/>
-    <lv:RadListView items="{{ seasonList }}">
+    <lv:RadListView items="{{ seasonList }}" itemTap="onItemClick">
         <lv:RadListView.listViewLayout>
         <lv:ListViewLinearLayout scrollDirection="Vertical"/>
         </lv:RadListView.listViewLayout>

@@ -1,0 +1,12 @@
+<Page loaded="loaded" xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:lv="nativescript-telerik-ui/listview">
+    <lv:RadListView items="{{ races }}">
+        <lv:RadListView.listViewLayout>
+            <lv:ListViewLinearLayout scrollDirection="Vertical"/>
+        </lv:RadListView.listViewLayout>
+        <lv:RadListView.itemTemplate >
+        <StackLayout orientation="vertical">
+            <Label fontSize="20" text="{{ date }}"/>
+        </StackLayout>
+        </lv:RadListView.itemTemplate>
+    </lv:RadListView>
+</Page>

@@ -26,12 +26,11 @@ exports.getDriverChampions = function() {
 };
 
 exports.getConstructorChampions = function() {
-  dialogsModule.alert({
-    message: "Not implemented yet",
-    okButtonText: "OK"
-  });
+  console.log("Getting all constructor champions");
+    
+  frameModule.topmost().navigate("views/constructor-champions-list");
 };
 
-exports.getDriverDetails = function() {
-    frameModule.topmost().navigate("views/driver-details");
-}
+// exports.getDriverDetails = function() {
+//     frameModule.topmost().navigate("views/driver-details");
+// }
